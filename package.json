@@ -1,0 +1,22 @@
+{
+  "name": "@jhenbertnpm/db",
+  "version": "1.0.0",
+  "description": "Instantiating new Prisma instance",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Prisma",
+    "Client",
+    "Database"
+  ],
+  "author": "Jhenbert",
+  "license": "MIT",
+  "peerDependencies": {
+    "@prisma/client": "^5.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17"
+  }
+}
