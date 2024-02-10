@@ -1,3 +1,12 @@
-# My Libararies
+# Prisma Client Instance
 
-Collection of all reusable code implemented in my projects.
+- Create a new intance of Prisma Client.
+- If an instance of Prisma is already running, one should not create another instance.
+
+## Usage
+
+```sh
+
+import {db} from "@jhenbertnpm/db"
+
+```
