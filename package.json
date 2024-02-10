@@ -3,10 +3,6 @@
   "version": "1.0.2",
   "description": "Instantiating new Prisma instance",
   "main": "index.ts",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "Prisma",
     "Client",
@@ -15,7 +11,9 @@
   "author": "Jhenbert",
   "license": "MIT",
   "peerDependencies": {
-    "@prisma/client": "^5.9.1",
+    "@prisma/client": "^5.9.1"
+  },
+  "devDependencies": {
     "@types/node": "^20.11.17"
   }
 }
