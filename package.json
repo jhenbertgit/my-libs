@@ -14,9 +14,7 @@
   "author": "Jhenbert",
   "license": "MIT",
   "peerDependencies": {
-    "@prisma/client": "^5.9.1"
-  },
-  "devDependencies": {
+    "@prisma/client": "^5.9.1",
     "@types/node": "^20.11.17"
   }
 }
