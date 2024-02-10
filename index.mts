@@ -1,15 +1,14 @@
 import { PrismaClient } from "@prisma/client";
 
-let db: PrismaClient;
-
+// Declare global variable to hold the PrismaClient instance
 declare global {
   var __db: PrismaClient | undefined;
 }
 
+// Initialize the PrismaClient instance if it hasn't been initialized yet
 if (!global.__db) {
   global.__db = new PrismaClient();
 }
 
-db = global.__db;
-
-export { db };
+// Export the initialized PrismaClient instance
+export const db = global.__db;

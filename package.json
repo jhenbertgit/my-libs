@@ -2,7 +2,7 @@
   "name": "@jhenbertnpm/db",
   "version": "1.0.4",
   "description": "Instantiating new Prisma instance",
-  "main": "index.ts",
+  "main": "index.mts",
   "keywords": [
     "Prisma",
     "Client",
