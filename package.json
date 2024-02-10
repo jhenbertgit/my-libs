@@ -1,6 +1,6 @@
 {
   "name": "@jhenbertnpm/db",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Instantiating new Prisma instance",
   "main": "index.ts",
   "scripts": {
